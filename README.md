@@ -4,6 +4,7 @@ First of the three university projects for computer graphics. OpenGL chicken bom
 //TODO: translate project description
 
 Magyar feladatleírás:
+
 Készítsen CSIRGURU BOMBÁZÓ játékot. A csirguru a csirke és a kenguru nászából született jószág, csirke teste, csőre, szemei, taraja van, valamint egy lába, amivel kenguruszerűen ugrál. A lába a csípőízületben nem fordul el, a térízületben hátra fordul, a bokában előre (amit a normál csirke esetében hajlamosak vagyunk előre hajló térdnek hinni). Az egy szem lábujj ugyancsak felfelé hajlítható, az ízületek tengelyei egymással párhuzamosak.
 
 A csirguruk testét néhány zárt Bézier görbével definiált keresztmetszetek Catmull-Rom spline-t alkalmazó transzfinit interpolációjával kell létrehozni. A szem, csör, taraj, lábrészek ismert egyenletű paraméteres felületekből (pl. gömb, kúp, henger, paraboloid stb.) összerakhatók.
