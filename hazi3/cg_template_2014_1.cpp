@@ -1606,7 +1606,7 @@ void onDisplay( ) {
 	glutSwapBuffers();
 }
 
-bool enabled = false;
+bool enabled = true;
 
 void onKeyboard(unsigned char key, int x, int y) {
 	if (key == 'd') {
@@ -1622,9 +1622,9 @@ void onKeyboard(unsigned char key, int x, int y) {
 		scene.moveBomb(Vector(0.0, 0.0, 1.0));
 	}
 
-	if (key == 'p') {
+	/*if (key == 'p') {
 		enabled = true;
-	}
+	}*/
 
 	if (key == ' ') {
 		scene.dropBomb();
